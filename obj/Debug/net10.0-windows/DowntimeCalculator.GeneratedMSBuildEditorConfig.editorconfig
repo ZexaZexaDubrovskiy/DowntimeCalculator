@@ -1,0 +1,62 @@
+is_global = true
+build_property.ApplicationManifest =
+build_property.StartupObject =
+build_property.ApplicationDefaultFont =
+build_property.ApplicationHighDpiMode =
+build_property.ApplicationUseCompatibleTextRendering =
+build_property.ApplicationVisualStyles =
+build_property.TargetFramework = net10.0-windows
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v10.0
+build_property.TargetPlatformMinVersion = 7.0
+build_property.UsingMicrosoftNETSdkWeb =
+build_property.ProjectTypeGuids =
+build_property.InvariantGlobalization =
+build_property.PlatformNeutralAssembly =
+build_property.EnforceExtendedAnalyzerRules =
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DowntimeCalculator
+build_property.ProjectDir = D:\Учеба\2 курс 2 семестр\ООП\Курсовая\DowntimeCalculator
+build_property.EnableComHosting =
+build_property.EnableGeneratedComInterfaceComImportInterop =
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 10.0
+build_property.EnableCodeStyleSeverity =
+csharp_new_line_after_region = false
+csharp_new_line_before_region = false
+csharp_style_expression_bodied_methods           = false:silent
+csharp_style_expression_bodied_properties        = true:silent
+csharp_style_expression_bodied_indexers          = true:silent
+csharp_style_expression_bodied_accessors         = true:silent
+csharp_style_expression_bodied_constructors      = false:silent
+csharp_style_expression_bodied_operators         = false:silent
+csharp_style_expression_bodied_local_functions   = true:silent
+csharp_prefer_braces = true:warning
+csharp_prefer_braces = true:warning
+# Регионы — минимум пустых строк
+csharp_blank_lines_around_region   = 0
+csharp_blank_lines_inside_region   = 0
+# или с префиксом resharper_ (Rider их понимает оба варианта)
+resharper_blank_lines_around_region = 0
+resharper_blank_lines_inside_region = 0
+# Дополнительно — часто полезно
+csharp_new_line_before_open_brace = methods, types, control_blocks, anonymous_methods, object_initializers, anonymous_types, accessors, lambdas
+csharp_new_line_before_else       = true
+csharp_new_line_before_catch      = true
+csharp_new_line_before_finally    = true
+# Expression-bodied — запрещаем для обычных методов (оставляем классические {})
+csharp_style_expression_bodied_methods = false:silent
+csharp_style_expression_bodied_properties = true:silent
+csharp_style_expression_bodied_accessors = true:silent
+# Пространства имён — file-scoped (C# 10+)
+csharp_style_namespace_declarations = file_scoped:suggestion
+# Убираем лишние пробелы внутри XML-комментариев
+resharper_xml_doc_indent_child_tags = false
+resharper_xml_doc_preserve_whitespace = false   # ← ключевой параметр
+# Или более жёстко — заставляем Rider не добавлять отступы в doc comments
+resharper_blank_lines_inside_region = 0
+resharper_xml_doc_indent = 0
+resharper_csharp_xml_doc_leading_whitespace = false
+resharper_xml_doc_indent_child_tags = false
+resharper_xml_doc_preserve_whitespace = false
+resharper_blank_lines_inside_region = 0
