@@ -69,7 +69,7 @@ public partial class Form1 : Form
         TextBoxExtention.IsDigit(e);
     }
 
-    private async void RemoveAllDowntimeButton_Click(object sender, EventArgs e)
+    private void RemoveAllDowntimeButton_Click(object sender, EventArgs e)
     {
         _factoryLoopService.ResetDowntime();
     }

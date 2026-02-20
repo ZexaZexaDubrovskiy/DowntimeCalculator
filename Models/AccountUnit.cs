@@ -18,7 +18,6 @@ public sealed class AccountUnit : Panel
         Speed = speed;
         BackColor = Color.Orange;
         Size = new Size(width, height);
-        var random = new Random();
         Id = Guid.NewGuid();
         Location = new Point(0, parentSize.Height / 2 - height / 2);
     }

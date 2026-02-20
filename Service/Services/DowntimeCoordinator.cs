@@ -1,12 +1,12 @@
 ﻿namespace DowntimeCalculator.Service.Services;
 
 /// <summary>
-/// TODO.
+/// Представляет сервис для создания простоев.
 /// </summary>
 public class DowntimeCoordinator
 {
     /// <summary>
-    /// Todo
+    /// Инициализирует экземпляр <see cref="DowntimeCoordinator" />.
     /// </summary>
     /// <param name="movement"></param>
     /// <param name="downtimeService"></param>

@@ -36,7 +36,7 @@ public static class FactoryService
 
         movementService.AccountUnitCreated += scene.Add;
 
-        var coordinator = new DowntimeCoordinator(
+        new DowntimeCoordinator(
             movementService,
             downtimeService,
             cancellationToken

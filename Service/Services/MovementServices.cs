@@ -55,17 +55,6 @@ public class MovementServices
     }
 
     /// <summary>
-    /// Передвижение всех УЕ.
-    /// </summary>
-    public void MoveAll()
-    {
-        foreach (var accountUnit in _accountUnits)
-        {
-            accountUnit.MoveForward(SpawnTime);
-        }
-    }
-
-    /// <summary>
     /// Обработка тика.
     /// </summary>
     public void Tick()
