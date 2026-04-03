@@ -20,11 +20,11 @@ public class DowntimeCoordinator
         {
             if (anyOnQuarto)
             {
-                downtimeService.StartDowntime();
+                await downtimeService.EndDowntimeAsync(token);
             }
             else
             {
-                await downtimeService.EndDowntimeAsync(token);
+                downtimeService.StartDowntime();
             }
         };
     }

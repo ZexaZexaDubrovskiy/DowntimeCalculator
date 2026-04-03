@@ -46,6 +46,7 @@
             WidthTextBox.Name = "WidthTextBox";
             WidthTextBox.Size = new Size(100, 23);
             WidthTextBox.TabIndex = 0;
+            WidthTextBox.Text = "100";
             WidthTextBox.KeyPress += WidthTextBox_KeyPress;
             // 
             // WidthLabel
@@ -72,6 +73,7 @@
             HeightTextBox.Name = "HeightTextBox";
             HeightTextBox.Size = new Size(100, 23);
             HeightTextBox.TabIndex = 3;
+            HeightTextBox.Text = "100";
             HeightTextBox.KeyPress += HeightTextBox_KeyPress;
             // 
             // SpeedTextBox
@@ -80,6 +82,7 @@
             SpeedTextBox.Name = "SpeedTextBox";
             SpeedTextBox.Size = new Size(100, 23);
             SpeedTextBox.TabIndex = 5;
+            SpeedTextBox.Text = "100";
             SpeedTextBox.KeyPress += SpeedTextBox_KeyPress;
             // 
             // SpeedLabel
@@ -117,6 +120,7 @@
             TimeSpawnTextBox.Name = "TimeSpawnTextBox";
             TimeSpawnTextBox.Size = new Size(100, 23);
             TimeSpawnTextBox.TabIndex = 9;
+            TimeSpawnTextBox.Text = "2";
             // 
             // TimeSpawnLabel
             // 
